@@ -33,5 +33,5 @@ jobs:
       working-directory: terraform
 
     - name: Upload Website to S3
-      run: aws s3 sync . s3://github-actions-terraform-website-anil2021
+      run: aws s3 sync terraform/website s3://github-actions-terraform-website-anil2026 --delete
       
