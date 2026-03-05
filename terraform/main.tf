@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "website_bucket" {
-    bucket = "github-actions-terraform-website-anil20"
+    bucket = "github-actions-terraform-website-anil2021"
     tags = {
     Name = "GitHub Actions Demo"
   }
